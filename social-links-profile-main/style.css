@@ -1,0 +1,55 @@
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.profile-card {
+    background-color: rgb(24, 24, 24);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.name p {
+    font-size: 1.5rem;
+}
+
+.location p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin-top: -15px;
+}
+
+.qualification p {
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    opacity: 0.75;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.social-media p {
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    align-items: center;
+    padding: 15px;
+}
