@@ -1,0 +1,82 @@
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Figtree, sans-serif;
+    color: black;
+}
+
+
+
+.card-foundations {
+    background-color: white;
+    border-radius: 30px;
+    max-width: 350px;
+    box-shadow: 10px 10px 0 0 black;
+}
+
+.card-img {
+    width: 90%;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.text-base {
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    padding: 0 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-base p {
+    text-align: center;
+    margin-left: -7px;
+    margin-top: 5px;
+}
+
+.date-published {
+    margin-left: 20px;
+}
+
+.date-published p {
+    font-size: 0.85rem;
+}
+
+.card-informations h1 {
+    font-weight: bold;
+    font-size: 1.35rem;
+    margin-left: 20px;
+}
+
+.card-informations p {
+    color: hsl(0, 0%, 42%);
+    margin-left: 20px;
+}
+
+.author {
+    padding-left: 20px;
+    display: flex;
+}
+
+.author img {
+    height: 100%;
+    width: 13%;
+    margin-bottom: 7px;
+}
+
+.author p {
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
